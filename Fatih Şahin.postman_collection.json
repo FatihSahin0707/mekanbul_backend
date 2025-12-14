@@ -33,7 +33,7 @@
 					"urlencoded": [
 						{
 							"key": "name",
-							"value": "Bilgisayar Mühendisliği",
+							"value": "Bilgisayar Mühendisliğii",
 							"type": "text"
 						},
 						{
@@ -99,11 +99,13 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:3000/api/venues",
+					"raw": "https://mekanbul-backend-8asy.vercel.app/api/venues",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"mekanbul-backend-8asy",
+						"vercel",
+						"app"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"venues"
@@ -133,21 +135,23 @@
 						},
 						{
 							"key": "text",
-							"value": "Kahveler güzel",
+							"value": "Balıklar çok güzel.",
 							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "localhost:3000/api/venues/693925648604568b2e276eac/comments",
+					"raw": "https://mekanbul-backend-8asy.vercel.app/api/venues/6926f8614e2abc92942723c6/comments",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"mekanbul-backend-8asy",
+						"vercel",
+						"app"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"venues",
-						"693925648604568b2e276eac",
+						"6926f8614e2abc92942723c6",
 						"comments"
 					]
 				}
@@ -164,7 +168,7 @@
 					"urlencoded": [
 						{
 							"key": "name",
-							"value": "b",
+							"value": "Tarihi Isparta Köftecisi GÜNCELLENDİ!",
 							"type": "text"
 						},
 						{
@@ -224,21 +228,23 @@
 						},
 						{
 							"key": "isClosed2",
-							"value": "true",
+							"value": "false",
 							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "localhost:3000/api/venues/693925648604568b2e276eac",
+					"raw": "https://mekanbul-backend-8asy.vercel.app/api/venues/6926f8614e2abc92942723c7",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"mekanbul-backend-8asy",
+						"vercel",
+						"app"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"venues",
-						"693925648604568b2e276eac"
+						"6926f8614e2abc92942723c7"
 					]
 				}
 			},
@@ -270,17 +276,19 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:3000/api/venues/693925648604568b2e276eac/comments/693973cbea8692d61b41b77c",
+					"raw": "https://mekanbul-backend-8asy.vercel.app/api/venues/6926f85f4e2abc92942723c0/comments/6926f86c34deb050cc4ad0b7",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"mekanbul-backend-8asy",
+						"vercel",
+						"app"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"venues",
-						"693925648604568b2e276eac",
+						"6926f85f4e2abc92942723c0",
 						"comments",
-						"693973cbea8692d61b41b77c"
+						"6926f86c34deb050cc4ad0b7"
 					]
 				}
 			},
@@ -292,15 +300,17 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:3000/api/venues/693925648604568b2e276eac",
+					"raw": "https://mekanbul-backend-8asy.vercel.app/api/venues/6926f85f4e2abc92942723c0",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"mekanbul-backend-8asy",
+						"vercel",
+						"app"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"venues",
-						"693925648604568b2e276eac"
+						"6926f85f4e2abc92942723c0"
 					]
 				}
 			},
@@ -312,17 +322,19 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:3000/api/venues/693925648604568b2e276eac/comments/693973cbea8692d61b41b77c",
+					"raw": "https://mekanbul-backend-8asy.vercel.app/api/venues/6926f85f4e2abc92942723c0/comments/6926f86c34deb050cc4ad0b7",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"mekanbul-backend-8asy",
+						"vercel",
+						"app"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"venues",
-						"693925648604568b2e276eac",
+						"6926f85f4e2abc92942723c0",
 						"comments",
-						"693973cbea8692d61b41b77c"
+						"6926f86c34deb050cc4ad0b7"
 					]
 				}
 			},
@@ -372,15 +384,17 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "localhost:3000/api/venues/693970b4ea8692d61b41b76d",
+					"raw": "https://mekanbul-backend-8asy.vercel.app/api/venues/693f19fb8a1632b44ec14a2e",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"mekanbul-backend-8asy",
+						"vercel",
+						"app"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"venues",
-						"693970b4ea8692d61b41b76d"
+						"693f19fb8a1632b44ec14a2e"
 					]
 				}
 			},
@@ -392,17 +406,19 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "localhost:3000/api/venues/693925648604568b2e276eac/comments/693973beea8692d61b41b775",
+					"raw": "https://mekanbul-backend-8asy.vercel.app/api/venues/6926f8604e2abc92942723c3/comments/6926f86d34deb050cc4ad0b9",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"mekanbul-backend-8asy",
+						"vercel",
+						"app"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"venues",
-						"693925648604568b2e276eac",
+						"6926f8604e2abc92942723c3",
 						"comments",
-						"693973beea8692d61b41b775"
+						"6926f86d34deb050cc4ad0b9"
 					]
 				}
 			},
