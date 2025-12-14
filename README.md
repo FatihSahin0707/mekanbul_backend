@@ -45,6 +45,31 @@ npm start
 
 Uygulama varsayılan olarak `http://localhost:3000` adresinde çalışacaktır.
 
+---
+
+## 📚 API Endpoints
+
+### Mekan İşlemleri
+
+| Method | Endpoint | Açıklama |
+|--------|----------|----------|
+| GET | /api/venues | Tüm mekanları listele |
+| POST | /api/venues | Yeni mekan ekle |
+| GET | /api/venues/:venueid | Mekan detayını getir |
+| PUT | /api/venues/:venueid | Mekan güncelle |
+| DELETE | /api/venues/:venueid | Mekan sil |
+
+### Yorum İşlemleri
+
+| Method | Endpoint | Açıklama |
+|--------|----------|----------|
+| POST | /api/venues/:venueid/comments | Yorum ekle |
+| GET | /api/venues/:venueid/comments/:commentid | Yorum getir |
+| PUT | /api/venues/:venueid/comments/:commentid | Yorum güncelle |
+| DELETE | /api/venues/:venueid/comments/:commentid | Yorum sil |
+
+---
+
 
 ## 🧪 Postman Test Sonuçları
 
